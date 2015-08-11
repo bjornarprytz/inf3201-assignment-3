@@ -15,17 +15,18 @@ Mandatory exercises
 
 Lectures
 --------
-The lecture plan is tentative and will be updated. 
+The lecture plan is tentative and will be updated.
+
 | W#   | Date      | Topic | Readings / Notes |
 | ---- | ----      | ----- | -----------------| 
 | 33   | Fr Aug 14 | Introduction | PP - Chapter 1 |
 | 34   | Mo Aug 17 | 2. Parallel computer / 3a. Message-passing computing  | PP - Chapter 2,3 | 
 |      | Fr Aug 21 | 3a. Message-passing computing             | PP - Chapter 3| 
-| 35   |           |     | |
-| 36   |           |     | |
-| 37   |           |     | |
-| 38   |           |     | |
-| 39   | 
+| 35   |           |     |   |
+| 36   |           |     |   |
+| 37   |           |     |   |
+| 38   |           |     |   |
+| 39   |           |     |   |
 | 40   |           |     | |
 | 41   |           |     | |
 | 42   |           |     | |
