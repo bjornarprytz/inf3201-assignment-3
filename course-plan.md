@@ -20,21 +20,24 @@ The lecture plan is tentative and will be updated.
 | W#   | Date      | Topic | Readings / Notes |
 | ---- | ----      | ----- | -----------------| 
 | 33   | Fr Aug 14 | Introduction | PP - Chapter 1 |
-| 34   | Mo Aug 17 | 2. Parallel computer / 3a. Message-passing computing  | PP - Chapter 2,3 | 
+| 34   | Mo Aug 17 | 2. Parallel computers          | PP - Chapter 2 | 
+|      |           | 3a. Message-passing computing  | PP - Chapter 3 | 
 |      | Fr Aug 21 | 3a. Message-passing computing             | PP - Chapter 3| 
-| 35   |           |     |   |
-| 36   |           |     |   |
-| 37   |           |     |   |
-| 38   |           |     |   |
-| 39   |           |     |   |
-| 40   |           |     | |
-| 41   |           |     | |
-| 42   |           |     | |
-| 43   |           |     | |
-| 44   |           |     | |
-| 45   |           |     | |
-| 46   |           |     | |
-| 47   |           |     | |
+| 35   | Mo Aug 24 | 3b. Message-passing computing (mpi)       |  |
+|      |           | Embarassingly parallel computations    | PP - Chapter 4  |
+| 36   | Mo Aug 31 | Partitioning and Divide-and-conquer    | PP - Chapter 4  |
+|      |           | CSP, Go and PyCSP                      |  |
+| 37   | Mo Sep 07 | Pipelined computations    | PP Chapter 5  |
+| 38   |           | *No lecture?*    |   |
+| 39   | Mo Sep 14 | Synchronous computations  | PP Chapter 6  |
+| 40   |           | Multithreading and OpemMP. Termination?   | |
+| 41   |           | *No lecture?*    |   |
+| 42   |           | Libraries for concurrent and parallel programming   | |
+| 43   |           | TBA    | |
+| 44   |           | *No lecture?*    |   |
+| 45   |           | TBA    | |
+| 46   |           | Transactional Memory    | |
+| 47   |           | Wrap up / Exam prep    | |
 | 48   |           |     | |
 | 49   | We Dec 02 | Exam (may be moved) | |
 
