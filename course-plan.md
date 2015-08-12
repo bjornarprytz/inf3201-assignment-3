@@ -19,17 +19,17 @@ The lecture plan is tentative and will be updated.
 
 | W#   | Date      | Topic | Readings / Notes |
 | ---- | ----      | ----- | -----------------| 
-| 33   | Fr Aug 14 | Introduction | PP - Chapter 1 |
-| 34   | Mo Aug 17 | 2. Parallel computers          | PP - Chapter 2 | 
-|      |           | 3a. Message-passing computing  | PP - Chapter 3 | 
-|      | Fr Aug 21 | 3a. Message-passing computing             | PP - Chapter 3| 
+| 33   | Fr Aug 14 | Introduction                              | PP - Chapter 1 |
+| 34   | Mo Aug 17 | 2. Parallel computers                     | PP - Chapter 2 | 
+|      |           | 3a. Message-passing computing             | PP - Chapter 3 | 
+|      | Fr Aug 21 | 3a. Message-passing computing             | PP - Chapter 3 | 
 | 35   | Mo Aug 24 | 3b. Message-passing computing (mpi)       |  |
-|      |           | Embarassingly parallel computations    | PP - Chapter 4  |
-| 36   | Mo Aug 31 | Partitioning and Divide-and-conquer    | PP - Chapter 4  |
-|      |           | CSP, Go and PyCSP                      |  |
-| 37   | Mo Sep 07 | Pipelined computations    | PP Chapter 5  |
+|      |           | Embarassingly parallel computations       | PP - Chapter 4  |
+| 36   | Mo Aug 31 | Partitioning and Divide-and-conquer       | PP - Chapter 4  |
+|      |           | CSP, Go and PyCSP                         |  |
+| 37   | Mo Sep 07 | Pipelined computations                    | PP - Chapter 5  |
 | 38   |           | *No lecture?*    |   |
-| 39   | Mo Sep 14 | Synchronous computations  | PP Chapter 6  |
+| 39   | Mo Sep 14 | Synchronous computations                  | PP - Chapter 6  |
 | 40   |           | Multithreading and OpemMP. Termination?   | |
 | 41   |           | *No lecture?*    |   |
 | 42   |           | Libraries for concurrent and parallel programming   | |
@@ -43,4 +43,5 @@ The lecture plan is tentative and will be updated.
 
 NB: the exam date can be moved. See [course info](https://uit.no/studietilbud/emner/emne?p_document_id=407601) for more information. 
 
+PP is the main textbook: Barry Wilkinson & Michael Allen. Parallel Programming: Techniques and Applications Using Networked Workstations and Parallel Computers, second edition, ISBN13: 9780131405639. 
 
