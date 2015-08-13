@@ -1,4 +1,4 @@
-INF-3201 Parallel Programming - Resources autumn 2015
+INF-3201 Parallel Programming - Autumn 2015
 ==============================
 
 
