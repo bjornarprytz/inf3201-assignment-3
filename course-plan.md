@@ -1,8 +1,8 @@
 Course plan (lectures and mandatory exercises) for INF-3201, 2015
 =================================================================
 
-[Room allocation](http://timeplan.uit.no/emne_timeplan.php?year=2015&module[]=INF-3201-2#week-32)
-[Lecture notes/handouts](lectures/)
+* [Room allocation](http://timeplan.uit.no/emne_timeplan.php?year=2015&module[]=INF-3201-2#week-32)
+* [Lecture notes/handouts](lectures/)
 
 Mandatory exercises / projects
 -------------------
