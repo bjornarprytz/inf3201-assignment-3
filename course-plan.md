@@ -2,6 +2,7 @@ Course plan (lectures and mandatory exercises) for INF-3201, 2015
 =================================================================
 
 [Room allocation](http://timeplan.uit.no/emne_timeplan.php?year=2015&module[]=INF-3201-2#week-32)
+[Lecture notes/handouts](lectures/)
 
 Mandatory exercises / projects
 -------------------
@@ -43,5 +44,4 @@ The lecture plan is tentative and will be updated.
 
 NB: the exam date can be moved. See [course info](https://uit.no/studietilbud/emner/emne?p_document_id=407601) for more information. 
 
-PP is the main textbook: Barry Wilkinson & Michael Allen. Parallel Programming: Techniques and Applications Using Networked Workstations and Parallel Computers, second edition, ISBN13: 9780131405639. 
-
+PP is the main textbook: Barry Wilkinson & Michael Allen. Parallel Programming: Techniques and Applications Using Networked Workstations and Parallel Computers, second edition, ISBN13: 9780131405639.
