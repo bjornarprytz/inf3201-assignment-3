@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+  <title>inf-3201 &ndash; Assignment 1: Desert Map</title>
+<style type="text/css">
+ .figur {border:none;border-top:solid 0.5pt; border-bottom:solid 0.5pt; .5pt;padding:1.0pt 0cm 0cm 0cm}
+ .figur p {text-align: center}
+</style>
+</head>
+
+<body>
+  <h2>inf-3201 Parallel Programming</h1>
+  <h1>Assignment 1: Desert Map</h2>
+
+
+  <h3>Story</h3>
+
+  <p>Wile E. Coyote must catch that road-runner, the RoadRunner is
+  the only eatable thing in the desert, it is that simple! We all know
+  that a large variety of ACME equipment has previously failed Wile so
+  now he need a new approach.</p>
+
+  <p>The first thing Wile must have to stand a chance to catch the
+  RoadRunner is information on the desert, precise information, e.g. a
+  map that may zoom into any required detail. Fortunately this
+  particular desert may be described by a very simple mathematical
+  function, also known as the Mandelbrot set. Unfortunately
+  calculating the map is a large computing problem, and since we
+  cannot apply any mechanical zoom techniques, we must generate a new
+  image for each zoom factor of the desired map. Thus to get his
+  information fast enough Wile need a fast mechanism for generating a
+  map. To this end we need a map generator that can utilize more than
+  one CPU.</p>
+
+  <div class="figur">
+    <p>
+     <img src="images/desertmap1.png" v:shapes="_x0000_i1025" width="265"
+    height="272"><span class="c7">&nbsp;</span>
+     <img src="images/desertmap2.png" v:shapes="_x0000_i1026" width="265"
+    height="272">
+    </p>
+    <p>The map of the desert, first the initial map and then the final
+    zoom</p>
+  </div>
+
+
+  <h3>Assignment</h3>
+
+  <p>Write two parallel versions of the map generation code, you may
+  use the sequential version below as a core. Both parallel versions
+  should be based on message passing using MPI, and execute on a
+  cluster. One version should use a fixed orchestration approach,
+  where orchestration can be defined either at compile-time or
+  initially at run-time. The other solution should be based on a
+  producer-consumer approach, which should define the number of
+  workers either at compile-time or run-time.</p>
+
+  <p>A written report accompanying the code, should identify the
+  various choices that have been made as well as individual techniques
+  that have been applied to improve performance. And the impact of each
+  should be documented.</p>
+
+
+  <h3>Optimization</h3>
+
+  <p>Any optimization technique may be employed to increase the speed, 
+  except shared-memory techniques (i.e. no multithreading). This includes
+  changes to the algorithm, data structure optimizations and vector instructions.</p>
+
+
+  <h4>Hand-in</h4>
+  
+  	<p>Use the same structure as in the code directory. Include your report as a PDF document in the root directory.
+	   Compress the directory as a tar.gz or zip file, and upload it to Fronter.</p>
+
+    <p>The deadline is Thursday, September 17th, 24:00. Do <em>not</em> miss the
+    deadline.</p>
+
+  <h3>Links</h3>
+
+  <ul>
+    <li><a href="http://www.ddewey.net/mandelbrot/">Introduction to the
+     Mandelbrot Set</a></li>
+    <li><a href="http://en.wikipedia.org/wiki/Mandelbrot_Set">Wikipedia 
+     article about the Mandelbrot Set</a></li>
+   </ul>
+
+   <hr>
+
+  <p>Lars Ailo Bongo, University of Troms&oslash;, fall 2004.</p>
+
+  <p>Modified by Espen S. Johnsen, fall 2005.</p>
+
+  <p>Modified by Edvard Pedersen, fall 2013.</p>
+
+  <p>Based on assignment made by Brian Vinter, University of
+  Southern Denmark.</p>
+</body>
+</html>
