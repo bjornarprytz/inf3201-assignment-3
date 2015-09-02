@@ -79,7 +79,7 @@ void setup_colors() {
 	int multiplier = 3;
 	int i;
 	for(i = 0; i <= ITERATIONS; i++) {
-		float position = (float)(i/(float)ITERATIONS);
+		float position = (float)(i/(float)(ITERATIONS + 1));
 		float color_selection = position*multiplier;
 		int real_selector = (int)floorf(color_selection);
 		int real_color = 0x000000;
