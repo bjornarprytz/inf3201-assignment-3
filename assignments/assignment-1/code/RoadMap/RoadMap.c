@@ -74,7 +74,7 @@ inline int solve(double x, double y)
  *
  */
 void setup_colors() {
-	palette = (int *)malloc(sizeof(int) * ITERATIONS);
+	palette = (int *)malloc(sizeof(int) * (ITERATIONS + 1));
 	int temp_colors[4] = {0x0000ff, 0x00ff00, 0x00ff00, 0xff0000};
 	int multiplier = 3;
 	int i;
