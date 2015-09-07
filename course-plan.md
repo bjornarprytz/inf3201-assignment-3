@@ -29,8 +29,8 @@ The lecture plan is tentative and will be updated.
 | 36   | Mo Aug 31 | Partitioning and Divide-and-conquer       | PP - Chapter 4  |
 |      |           | CSP, Go and PyCSP                         |  |
 | 37   | Mo Sep 07 | Pipelined computations                    | PP - Chapter 5  |
-| 38   |           | *No lecture?*    |   |
-| 39   | Mo Sep 14 | Synchronous computations                  | PP - Chapter 6  |
+| 38   | Mo Sep 14 | *No lecture*    |   |
+| 39   | Mo Sep 21 | Synchronous computations                  | PP - Chapter 6  |
 | 40   |           | Multithreading and OpemMP. Termination?   | |
 | 41   |           | *No lecture?*    |   |
 | 42   |           | Libraries for concurrent and parallel programming   | |
