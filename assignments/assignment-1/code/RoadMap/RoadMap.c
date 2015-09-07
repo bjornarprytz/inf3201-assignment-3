@@ -74,12 +74,12 @@ inline int solve(double x, double y)
  *
  */
 void setup_colors() {
-	palette = (int *)malloc(sizeof(int) * ITERATIONS);
+	palette = (int *)malloc(sizeof(int) * (ITERATIONS + 1));
 	int temp_colors[4] = {0x0000ff, 0x00ff00, 0x00ff00, 0xff0000};
 	int multiplier = 3;
 	int i;
 	for(i = 0; i <= ITERATIONS; i++) {
-		float position = (float)(i/(float)ITERATIONS);
+		float position = (float)(i/(float)(ITERATIONS + 1));
 		float color_selection = position*multiplier;
 		int real_selector = (int)floorf(color_selection);
 		int real_color = 0x000000;
