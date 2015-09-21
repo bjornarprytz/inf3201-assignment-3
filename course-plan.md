@@ -31,15 +31,15 @@ The lecture plan is tentative and will be updated.
 | 37   | Mo Sep 07 | Pipelined computations                    | PP - Chapter 5  |
 | 38   | Mo Sep 14 | *No lecture*    |   |
 | 39   | Mo Sep 21 | Synchronous computations                  | PP - Chapter 6  |
-| 40   |           | Multithreading and OpemMP. Termination?   | |
-| 41   |           | *No lecture?*    |   |
-| 42   |           | Libraries for concurrent and parallel programming   | |
-| 43   |           | TBA    | |
-| 44   |           | *No lecture?*    |   |
-| 45   |           | TBA    | |
-| 46   |           | Transactional Memory    | |
-| 47   |           | Wrap up / Exam prep    | |
-| 48   |           |     | |
+| 40   | Mo Sep 28 | GPU Intro                                 | |
+| 41   | Mo Oct 05 | *No lecture?*    |   |
+| 42   | Mo Oct 12 | GPU vs. Multicore - how do we compare and optimize? | |
+| 43   | Mo Oct 19 | Recent libraries for concurrent and parallel programming   | |
+| 44   | Mo Oct 26 | *No lecture?*    |   |
+| 45   | Mo Oct 02 | TBA    | |
+| 46   | Mo Oct 09 | Transactional Memory    | |
+| 47   | Mo Oct 16 | Wrap up / Exam prep    | |
+| 48   | Mo Oct 23 |     | |
 | 49   | We Dec 02 | Exam (may be moved) | |
 
 NB: the exam date can be moved. See [course info](https://uit.no/studietilbud/emner/emne?p_document_id=407601) for more information. 
