@@ -11,4 +11,4 @@ Pratical information about the course
 Resources
 ----------
 - [Tutorials overview](tutorials/README.md)
-
+- [External resources (benchmarks, dwarfs etc)](external-links.md)
