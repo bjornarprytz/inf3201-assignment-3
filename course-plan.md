@@ -11,7 +11,7 @@ Mandatory exercises / projects
 | ---- | ----      | ----- | -----------------| 
 | 34   | Fr Aug 21 | Mandatory project 1 - early handout | [OpenMPI](http://www.open-mpi.org/) |
 | 38   | Fr Sep 18 | Project 1 in, Project 2 out         |  |
-| 41   | Fr Oct 09 | Project 2 in, Project 3 out         |  |
+| 41   | Fr Oct 09 | Project 2 in, Project 3 out         | Will use the lecture slot at 10:15 B203 |
 | 44   | Fr Oct 30 | Project 3 in                        |  |
 
 Lectures
