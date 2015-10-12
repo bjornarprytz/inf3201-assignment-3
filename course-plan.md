@@ -31,12 +31,12 @@ The lecture plan is tentative and will be updated.
 | 37   | Mo Sep 07 | Pipelined computations                    | PP - Chapter 5  |
 | 38   | Mo Sep 14 | *No lecture*    |   |
 | 39   | Mo Sep 21 | Synchronous computations                  | PP - Chapter 6  |
-| 40   | Mo Sep 28 | GPU Intro                                 | |
-| 41   | Mo Oct 05 | *No lecture?*    |   |
-| 42   | Mo Oct 12 | GPU vs. Multicore - how do we compare and optimize? | |
-| 43   | Mo Oct 19 | Recent libraries for concurrent and parallel programming   | |
+| 40   | Mo Sep 28 | GPU Intro                                 | [Cuda Programming Guide](https://docs.nvidia.com/cuda/cuda-c-programming-guide/)|
+| 41   | Mo Oct 05 | *No lecture*    |   |
+| 42   | Mo Oct 12 | GPU optimization | |
+| 43   | Mo Oct 19 | *No lecture (IfI administration)*   | |
 | 44   | Mo Oct 26 | *No lecture?*    |   |
-| 45   | Mo Oct 02 | TBA    | |
+| 45   | Mo Oct 02 | Recent libraries for concurrent and parallel programming   | |
 | 46   | Mo Oct 09 | Transactional Memory    | |
 | 47   | Mo Oct 16 | Wrap up / Exam prep    | |
 | 48   | Mo Oct 23 |     | |
