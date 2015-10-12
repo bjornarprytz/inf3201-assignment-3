@@ -34,7 +34,7 @@ The lecture plan is tentative and will be updated.
 | 40   | Mo Sep 28 | GPU Intro                                 | [Cuda Programming Guide](https://docs.nvidia.com/cuda/cuda-c-programming-guide/)|
 | 41   | Mo Oct 05 | *No lecture*    |   |
 | 42   | Mo Oct 12 | GPU optimization | |
-| 43   | Mo Oct 19 | *No lecture (IfI administration)*   | |
+| 43   | Mo Oct 19 | *No lecture (IfI seminar)*   | |
 | 44   | Mo Oct 26 | *No lecture?*    |   |
 | 45   | Mo Oct 02 | Recent libraries for concurrent and parallel programming   | |
 | 46   | Mo Oct 09 | Transactional Memory    | |
