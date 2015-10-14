@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-SHOW_IMAGES=False
+SHOW_IMAGES=True
 SIZE=1024
 
 import numpy as np
@@ -84,7 +84,7 @@ def solve(x, y):
         s = next_s
         if(itt == 255):
             return itt
-    return itt 
+    return itt
 
 # Generates X and Y coordinates for the mandelbrot calculations
 def generate_coords(dims):
