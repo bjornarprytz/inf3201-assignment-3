@@ -6,6 +6,7 @@ INF-3201, UIT
 Written by Edvard Pedersen
 """
 
+import decryptcuda
 import numpy as np
 import random
 import hashlib
@@ -22,7 +23,7 @@ def main():
     Prints out the time it took.
     """
     secret = generate_secret(1000, "this is secret, but safe")
-    encrypted = encrypt_bytes(secret, "Z")
+    encrypted = encrypt_bytes(secret, "a")
     start_time = time.time()
     result = guess_password(3, encrypted, known)
     end_time = time.time()
@@ -82,11 +83,11 @@ def try_password(in_data, guess, known_part):
 
 def encrypt_bytes(bytes_in, key):
     """Encrypts a numpy array with key using XTEA in CBC mode.
-    
+
     Arguments:
     bytes_in -- numpy array to encrypt
     key -- password to use
-    
+
     returns -- a new numpy array containing the encrypted data"""
     iv = np.array([1,2], dtype=np.uint32)
     ha = np.fromstring(hashlib.md5(key).digest(), np.uint32)
@@ -105,11 +106,11 @@ def encrypt_bytes(bytes_in, key):
 
 def decrypt_bytes(bytes_in, key):
     """Decrypts a numpy array with key using XTEA in CBC mode.
-    
+
     Arguments:
     bytes_in -- numpy array with encrypted data
     key -- password to use to decrypt
-    
+
     returns -- a new numpy array containing the decrypted data"""
     iv = np.array([1,2], dtype=np.uint32)
     ha = np.fromstring(hashlib.md5(key).digest(), np.uint32)
@@ -119,15 +120,19 @@ def decrypt_bytes(bytes_in, key):
     prev_decrypt = iv
     i = 0
     length = len(bytes_in)
-    while(i < length - 1):
-        output[i:i+2] = np.bitwise_xor(decipher(32, bytes_in[i:i+2], ha), prev_decrypt)
-        prev_decrypt = bytes_in[i:i+2]
-        i += 2
+    # TODO: Parallelize this loop
+    # load bytes_in into device memory
+    decryptcuda.decrypt(bytes_in, output, ha, length)
+
+    #while(i < length - 1):
+    #    output[i:i+2] = np.bitwise_xor(decipher(32, bytes_in[i:i+2], ha), prev_decrypt)
+    #    prev_decrypt = bytes_in[i:i+2]
+    #    i += 2
     return output
 
 def generate_secret(size, secret):
     """Generates a numpy array which contains random data and the secret data.
-    The array consists of 32-bit data points, where the top 24 bits contain the 
+    The array consists of 32-bit data points, where the top 24 bits contain the
     offset of the bottom 8 bits in the reconstructed array.
 
     Arguments:
@@ -139,15 +144,15 @@ def generate_secret(size, secret):
         raise Exception("Secret too large for secret generation")
 
     secret2 = np.fromstring(secret, np.int8)
-    
+
     positions = np.arange(size)
     max_position = size - len(secret)
-    
+
     secret_array = np.empty(size, dtype=np.uint32)
     insertion_array = np.random.randint(255,size=size)
 
     target_position = random.choice(range(max_position))
-    
+
     i = 0
     for element in secret2:
         insertion_array[target_position + i] = element
